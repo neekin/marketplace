@@ -16,7 +16,7 @@
     "dev": "npm start",
     "start": "craco start",
     "build": "craco build",
-    "lint:fix": "eslint --fix .",
+    "lint:fix": "prettier --write \"src/**/*.{js,jsx,tsx,ts}\" && eslint --fix \"src/**/*.{js,jsx,tsx,ts}\" ",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
